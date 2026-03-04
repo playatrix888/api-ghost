@@ -1,0 +1,35 @@
+{
+  "name": "api-ghost",
+  "version": "1.0.0",
+  "description": "A CLI that automatically generates a mock API server from any OpenAPI/Swagger JSON file using LLM-powered realistic mock data",
+  "main": "src/index.js",
+  "bin": {
+    "api-ghost": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "api",
+    "mock",
+    "swagger",
+    "openapi",
+    "express",
+    "llm",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.80.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
